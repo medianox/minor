@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<body>
+<a id="top"></a>
+<h2>menu</h2>
+<style>
+    .current {
+        color: #3b96c3;
+    }
+</style>
+<ul>
+    <li> <a href='table.html'>На главную</a></li>
+    <li> <a href='passport.html'>Паспорт</a></li>
+    <li> <a href='form.html'>Забронировать столик</a></li>
+    <li> <a href='review.html'  class="current">Оставить отзыв</a></li>
+</ul>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank" method="get">
+    <input type="hidden" name="q" value="search">
+    <p>Логин: <input type="Text" name = "login" size="20"></p>
+    <p>Пароль: <input type="Password" name = "password" size="20"></p>
+    <p>
+        Общая оценка:<Br>
+        <input type="Radio" name = "mark" size="20" value="1"> 1
+        <input type="Radio" name = "mark" size="20" value="2"> 2
+        <input type="Radio" name = "mark" size="20" value="3"> 3
+        <input type="Radio" name = "mark" size="20" value="4"> 4
+        <input type="Radio" name = "mark" size="20" value="4"> 5
+    </p>
+    <p>
+        Понравилось:<Br>
+        <input type="Checkbox" name = "like" size="20" value="clean"> чистота и порядок
+        <input type="Checkbox" name = "like" size="20" value="polite"> вежливость сотрудников
+        <input type="Checkbox" name = "like" size="20" value="good_taste"> вкусно
+        <input type="Checkbox" name = "like" size="20" value="many"> широкий ассортимент
+        <input type="Checkbox" name = "like" size="20" value="fast"> быстрое обслуживание
+    </p>
+    <p>
+        Не понравилось:<Br>
+        <input type="Checkbox" name = "like" size="20" value="dirty"> грязно
+        <input type="Checkbox" name = "like" size="20" value="rude"> грубость сотрудников
+        <input type="Checkbox" name = "like" size="20" value="bad_taste"> не вкусно
+        <input type="Checkbox" name = "like" size="20" value="little"> маленький ассортимент
+        <input type="Checkbox" name = "like" size="20" value="slow"> долго ждать
+    </p>
+    <p>Дата посещения: <input type="date" name="user_date"></p>
+    <p>Отзыв:<Br>
+        <textarea name="review" cols="40" rows="3"></textarea></p>
+    <p>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </p>
+    </form>
+
+
+
+</body></html>
