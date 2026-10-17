@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>passport</title>
+    <style type="text/css">
+      body {
+        background-image: url(passport_shablon.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+      }
+
+      .menu {
+        position: absolute;
+        top: 25px;
+        left: 470px;
+      }
+      .menu h2 {
+        margin: 0 0 8px 0;
+      }
+      .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .menu li {
+        margin-bottom: 4px;
+      }
+
+      .gov {
+        margin-left: 100px;
+        margin-top: 67px;
+        font: bold 90% serif;
+      }
+      .date {
+        margin-left: 86px;
+        margin-top: 30px;
+      }
+      .code {
+        margin-left: 250px;
+        margin-top: -18px;
+      }
+      .last_name {
+        margin-left: 218px;
+        margin-top: 185px;
+        font: bold 100% serif;
+      }
+      .name {
+        margin-left: 220px;
+        margin-top: 27px;
+      }
+      .patronymic {
+        margin-left: 218px;
+        margin-top: 4px;
+      }
+      .gender {
+        margin-left: 167px;
+        margin-top: 3px;
+      }
+      .birthday {
+        margin-left: 250px;
+        margin-top: -20px;
+      }
+      .place {
+        margin-left: 187px;
+        margin-top: 3px;
+      }
+      .photo {
+        margin-left: 30px;
+        margin-top: -95px;
+      }
+      button {
+        margin-left: 310px;
+        margin-top: 43px;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="top"></a>
+
+    <div class="menu">
+		<style>
+    		.current {
+        		color: #3b96c3;
+    		}
+		</style>
+      <h2>menu</h2>
+      <ul>
+    	<li> <a href='index.html'>На главную</a></li>
+        <li> <a href='passport.html' class="current">Паспорт</a></li>
+        <li> <a href='algorithm.html'>Решение задачи</a></li>
+        <li> <a href='form.html'>Забронировать столик</a></li>
+        <li> <a href='review.html'>Оставить отзыв</a></li>
+        <li> <a href="dom.html"><img width="40" src="js.png"></a>
+            <a href="https://ru.wikipedia.org/wiki/JavaScript"><img width="40" src="wiki.jpg"></a></li>
+	  </ul>
+    </div>
+
+    <div class="gov">ГУ МВД РОССИИ <br> ПО Г. МОСКВЕ</div>
+    <div class="date"> 10.08.2021</div>
+    <div class="code"> 770-064</div>
+    <div class="last_name"> Мастыкина </div>
+    <div class="name"> Александра </div>
+    <div class="patronymic"> Дмитриевна </div>
+    <div class="gender"> жен. </div>
+    <div class="birthday"> 27.07.2007</div>
+    <div class="place"> г. Москва </div>
+    <div class="photo"> <img src="woman.jpg" height="130" width="104"/> </div>
+    <button class="button" id="change">English</button>
+  </body>
+  <script src="change.js"></script>
+</html>
