@@ -7,11 +7,24 @@
 </head>
 
 <body>
+<h2>menu</h2>
+<style>
+    .current {
+        color: #3b96c3;
+    }
+</style>
+<ul>
+    <li> <a href='index.html'>На главную</a></li>
+    <li> <a href='passport.html'>Паспорт</a></li>
+    <li> <a href='algorithm.html' class="current">Решение задачи</a></li>
+    <li> <a href='form.html'  class="current">Забронировать столик</a></li>
+    <li> <a href='review.html'>Оставить отзыв</a></li>
+</ul>
     <p name="formulation">Дано вещественное число A. Вычислить x = 0 при a > 100; x = a при a < 61, в противном случае
         x = a**4.</p>
-    <form action="https://www.ya.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
         <ul>
-            <li>Для поисковика: <input name="q" value="search"></li>
+            <li>Для поисковика: <input type="hidden" name="q" value="search"></li>
             <li>Формулировка задачи:
                 <br><textarea cols="60" rows="4" id="task" name="formulation">Дано вещественное число A. Вычислить x = 0 при a > 100; x = a при a < 61, в противном случае x = a**4.</textarea></li>
             <li>a: <input id="a" name="a"  type="number" value="10"></li>
